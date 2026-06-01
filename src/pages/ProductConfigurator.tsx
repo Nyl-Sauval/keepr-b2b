@@ -1,6 +1,6 @@
 import { useState, useMemo, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { Package, Shield, Settings2, Info, Building2, Box } from 'lucide-react';
+import { Shield, Settings2, Info, Building2, Box } from 'lucide-react';
 import { useCart } from '../context/CartContext';
 
 const PRODUCT_DATA: Record<string, any> = {
